@@ -42,3 +42,10 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+/web/
+/windows/
+/.metadata
+/analysis_options.yaml
+/newflutterapp.iml
+/pubspec.lock
+/pubspec.yaml
