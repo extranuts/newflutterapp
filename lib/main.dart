@@ -18,20 +18,8 @@ class FlutterTutorialApp extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.blueGrey,
         ),
-        body: Padding(
-          padding: EdgeInsets.symmetric(vertical: 11.0,horizontal: 11.9),
-          child: IconButton(
-            icon: const Icon(
-              Icons.search,
-              size: 55.0,
-              color: Colors.red,
-            ),
-            onPressed: () {
-              print("Button has been pressed");
-            },
-            color: Colors.black54,
-            iconSize: 100.0,
-          ),
+        body: Container(
+          color: Colors.black12,
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
