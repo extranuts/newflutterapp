@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 void main() => runApp(FlutterTutorialApp());
 
@@ -19,7 +18,9 @@ class FlutterTutorialApp extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.blueGrey,
         ),
-        body: IconButton(
+        body: Align(
+            alignment: const Alignment(-0.5,0.2),
+            child: IconButton(
           icon: const Icon(
             Icons.search,
             size: 55.0,
@@ -30,6 +31,7 @@ class FlutterTutorialApp extends StatelessWidget {
           },
           color: Colors.black54,
           iconSize: 100.0,
+        ),
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
